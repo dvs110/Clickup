@@ -158,30 +158,24 @@ function App() {
 
 
       <div className="section-4">
-        <h1 className="section-title">Ways To Use a CRM for Real Estate</h1>
+        <div ><h1 className="section-title4">Ways To Use a CRM for Real Estate</h1></div>
+
+
         <h2 className="section-subtitle">Lead Tracking and Qualification</h2>
         <p className="section-description">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit modi ex sed iste vero
-          suscipit doloribus voluptas. Sint quaerat ipsum ullam fugiat pariatur reiciendis earum. Quam
-          ipsam dicta dignissimos quasi.
+          CRMs in real estate help agents capture leads from various sources like websites, social media, and referrals. By scoring leads based on predefined criteria such as budget, location, and timeline, agents can prioritize follow-ups and focus on high-quality prospects. This systematic approach ensures efficient lead nurturing through the sales funnel, increasing the chances of conversions.
         </p>
         <h2 className="section-subtitle">Pipeline Management</h2>
         <p className="section-description">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit modi ex sed iste vero
-          suscipit doloribus voluptas. Sint quaerat ipsum ullam fugiat pariatur reiciendis earum. Quam
-          ipsam dicta dignissimos quasi.
+          Real estate CRMs offer a visual representation of the sales pipeline, showing where potential deals stand in the process. This feature helps agents track the progress of each deal, identify bottlenecks, and focus on hot leads that are likely to convert. By having a clear overview of all deals in progress, agents can allocate their time and resources effectively, ultimately boosting sales productivity.
         </p>
         <h2 className="section-subtitle">Customer Analytics and Reporting</h2>
         <p className="section-description">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit modi ex sed iste vero
-          suscipit doloribus voluptas. Sint quaerat ipsum ullam fugiat pariatur reiciendis earum. Quam
-          ipsam dicta dignissimos quasi.
+          Utilizing a CRM for real estate allows agents to track and analyze customer behavior to gain valuable insights into preferences, trends, and patterns. By understanding how clients interact with listings and respond to marketing efforts, agents can tailor their strategies to better meet customer needs. Real-time performance dashboards provide a snapshot of key metrics, empowering agents to make data-driven decisions and optimize their approach for maximum results.
         </p>
         <h2 className="section-subtitle">Account and Contact Management</h2>
         <p className="section-description">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit modi ex sed iste vero
-          suscipit doloribus voluptas. Sint quaerat ipsum ullam fugiat pariatur reiciendis earum. Quam
-          ipsam dicta dignissimos quasi.
+          Centralized database management is crucial in real estate, where agents deal with a large volume of clients, properties, and transactions. CRMs help agents maintain up-to-date records of contacts, accounts, and interactions in one place, ensuring seamless communication and personalized service. With detailed insights into client history and preferences, agents can build stronger relationships, anticipate needs, and deliver exceptional customer experiences.
         </p>
       </div>
 

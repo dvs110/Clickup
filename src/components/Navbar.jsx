@@ -29,7 +29,7 @@ function Navbar() {
 
 
           <div className='contact' style={{ padding: "3px", backgroundColor: "#ffff", border: "1px solid rgb(217, 217, 217)", borderRadius: "14px", justifyContent: "center", alignItems: "center", boxShadow: "0 4px 6px 0 rgba(67, 46, 134, .04)" }}>
-            <div className='contact-text' style={{ color: "#24223E", padding: "5px 17px", borderRadius: "14px", fontSize: "1rem", display: "flex", justifyContent: "center", alignItems: "center", fontFamily: "'Plus Jakarta Sans', sans-serif", fontWeight: "500" }}>
+            <div className='contact-text' style={{ cursor: "pointer", color: "#24223E", padding: "5px 17px", borderRadius: "10px", fontSize: "1rem", display: "flex", justifyContent: "center", alignItems: "center", fontFamily: "'Plus Jakarta Sans', sans-serif", fontWeight: "500" }}>
               Contact Sales
             </div>
           </div>
@@ -37,10 +37,10 @@ function Navbar() {
           <div className='authentication' style={{ padding: "4px 7px", backgroundColor: "#ffff", border: "1px solid rgb(217, 217, 217)", borderRadius: "14px", marginLeft: "0.7rem", boxShadow: "0 4px 6px 0 rgba(67, 46, 134, .04)" }}>
             <div className='login' style={{ cursor: "pointer", marginRight: "5px", borderRadius: "10px", paddingLeft: "0.4rem", paddingRight: "0.4rem", fontSize: "1rem", display: "flex", justifyContent: "center", alignItems: "center", fontFamily: "'Plus Jakarta Sans', sans-serif", fontWeight: "500", color: "#24223E" }}>Log in</div>
 
-            <div className='signup' style={{ cursor: "pointer", borderRadius: "8px", border: "1px solid grey", paddingLeft: "0.4rem", paddingRight: "0.4rem", display: "flex", alignItems: "center", fontSize: "1rem", fontFamily: "'Plus Jakarta Sans', sans-serif", fontWeight: "700", color: "white" }}>Sign Up</div>
+            <div className='signup' style={{ paddingTop: "5px", paddingBottom: "5px", cursor: "pointer", borderRadius: "8px", border: "1px solid grey", paddingLeft: "0.4rem", paddingRight: "0.4rem", display: "flex", alignItems: "center", fontSize: "1rem", fontFamily: "'Plus Jakarta Sans', sans-serif", fontWeight: "700", color: "white" }}>Sign Up</div>
           </div>
           <div className='ham' style={{ flexDirection: "row" }}>
-            <div className='m-outer-signup' style={{ display: "flex", cursor: "pointer", borderRadius: "8px", border: "1px solid grey", paddingLeft: "0.4rem", paddingRight: "0.4rem", alignItems: "center", fontSize: "1rem", fontFamily: "'Plus Jakarta Sans', sans-serif", fontWeight: "700", color: "white" }}>Sign Up</div>
+            <div className='m-outer-signup' style={{ paddingTop: "5px", paddingBottom: "5px", display: "flex", cursor: "pointer", borderRadius: "8px", border: "1px solid grey", paddingLeft: "0.4rem", paddingRight: "0.4rem", alignItems: "center", fontSize: "1rem", fontFamily: "'Plus Jakarta Sans', sans-serif", fontWeight: "700", color: "white" }}>Sign Up</div>
             <div className="hamburger-menu" >
               <img
                 src="https://www.freeiconspng.com/uploads/menu-icon-6.png"

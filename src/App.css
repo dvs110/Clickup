@@ -427,29 +427,39 @@
     margin-right: 2.5rem;
 }
 
+/* 4th section */
+
+
 .section-4 {
-    width: 80vw;
-    padding: 0 12rem;
+    border: 1px solid black;
+    padding: 0 13%;
     margin-bottom: 6rem;
 }
 
-.section-title {
+.section-title4 {
     font-weight: 800;
     font-size: 2.5rem;
-    margin-left: 2rem;
-    margin-bottom: 1.25rem;
-    font-family: 'Plus Jakarta Sans', sans-serif;
+    /* margin-left: 2rem; */
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid black;
+
+    font-family: "Inria Sans", sans-serif;
 }
 
 .section-subtitle {
-    font-weight: 800;
-    font-size: 2rem;
-    margin-bottom: 1rem;
-    font-family: 'Plus Jakarta Sans', sans-serif;
+    font-weight: 700;
+    font-size: 2.2rem;
+    font-family: "Inria Sans", sans-serif;
 }
 
 .section-description {
-    font-family: 'Plus Jakarta Sans', sans-serif;
+    font-family: "Inria Sans", sans-serif;
+    width: 80%;
+    font-weight: 600;
+    font-size: 1.2rem;
     margin-bottom: 1.5rem;
 }
 
@@ -618,7 +628,7 @@
 
 
 
-
+/* 6th section */
 
 .section-6 {
     display: flex;
