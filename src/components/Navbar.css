@@ -1,0 +1,125 @@
+.login:hover {
+    background: rgb(241, 241, 241);
+    /* background: rgb(217, 217, 217); */
+}
+
+.text {
+    display: flex;
+}
+
+.signup {
+
+    background: linear-gradient(90deg, rgba(2, 0, 36, 1) 0%, rgba(236, 0, 255, 1) 0%, rgba(0, 212, 255, 1) 100%);
+}
+
+.m-outer-signup {
+    height: 35px;
+    background: linear-gradient(90deg, rgba(2, 0, 36, 1) 0%, rgba(236, 0, 255, 1) 0%, rgba(0, 212, 255, 1) 100%);
+
+}
+
+.m-outer-signup:hover {
+    background: linear-gradient(90deg, rgba(2, 0, 36, 1) 0%, rgba(0, 212, 255, 1) 0%, rgba(236, 0, 255, 1) 84%);
+}
+
+.signup:hover {
+    background: linear-gradient(90deg, rgba(2, 0, 36, 1) 0%, rgba(0, 212, 255, 1) 0%, rgba(236, 0, 255, 1) 84%);
+}
+
+.contact-text:hover {
+    background: rgb(241, 241, 241);
+}
+
+.authentication {
+    display: flex;
+}
+
+.contact {
+    display: flex
+}
+
+.navbar-body {
+    width: 100%;
+    padding-right: 13%;
+    padding-left: 13%;
+    height: 100px;
+    display: flex;
+
+    justify-content: space-between;
+    position: fixed;
+    align-items: center;
+    top: 0;
+    z-index: 100;
+    border: "1px solid black";
+    /* background-color: ; */
+}
+
+
+
+
+@media (max-width: 1277.60px) {
+    .navbar-body {
+        padding-right: 5%;
+        padding-left: 5%;
+    }
+
+    .ham {
+        display: none;
+    }
+}
+
+
+@media (min-width: 1025.60px) {
+
+
+    .ham {
+        display: none;
+    }
+
+}
+
+@media (max-width: 1025.60px) {
+    .navbar-body {
+        padding-right: 5%;
+        padding-left: 5%;
+    }
+
+    .authentication {
+        display: none;
+    }
+
+
+
+    .contact {
+        display: none;
+    }
+
+
+    .ham {
+        display: flex;
+    }
+
+}
+
+
+@media (max-width: 500px) {
+    .text {
+        display: none;
+    }
+
+    .ham {
+        display: flex;
+    }
+
+}
+
+
+.hamburger-menu {
+    border-radius: 10px;
+    border: 1px solid #d1d5db;
+    margin-left: 7px;
+}
+
+.hamburger-img {
+    width: 34px;
+}

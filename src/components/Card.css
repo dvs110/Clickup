@@ -1,0 +1,106 @@
+.card {
+    /* width: 25vw; */
+    /* large screens */
+    background: linear-gradient(90deg, rgba(2, 0, 36, 1) 0%, rgb(201, 129, 206) 0%, rgb(147, 235, 253) 100%);
+    border-radius: 1rem;
+    font-weight: 600;
+    font-size: 2rem;
+    border: 1px solid rgb(174, 173, 173);
+    box-shadow: 0 4px 6px 0 rgba(67, 46, 134, .04);
+    /* rounded-xl */
+    height: 200px;
+    font-family: 'Jakarta', sans-serif;
+    width: 450px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.heading1 {
+    font-size: 1.4rem;
+    font-weight: 800;
+}
+
+@media (max-width: 1024px) {
+
+    /* Medium devices like tablets */
+
+}
+
+.logo {
+    width: 50px;
+    margin-bottom: 1.25rem;
+    /* mb-5 */
+}
+
+
+
+@media (max-width: 1030px) {
+    .card {
+        width: 400px;
+    }
+
+    .heading1 {
+        font-size: 1.2rem;
+        font-weight: 800;
+    }
+
+}
+
+@media (max-width: 914px) {
+    .card {
+        width: 350px;
+    }
+
+    .heading1 {
+        font-size: 1.2rem;
+        font-weight: 800;
+    }
+
+}
+
+@media (max-width: 788px) {
+    .card {
+        width: 280px;
+    }
+
+    .heading1 {
+        font-size: 0.9rem;
+        font-weight: 800;
+    }
+
+}
+
+
+@media (max-width: 636px) {
+    .card {
+        width: 100%;
+    }
+
+    .heading1 {
+        font-size: 1rem;
+        font-weight: 800;
+    }
+
+}
+
+
+
+@media (max-width: 412px) {
+    .heading1 {
+        font-size: 1rem;
+        font-weight: 800;
+    }
+
+
+}
+
+@media (max-width: 336px) {
+    .heading1 {
+        font-size: 0.8rem;
+        font-weight: 800;
+    }
+
+
+}
