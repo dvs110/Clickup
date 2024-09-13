@@ -113,7 +113,7 @@ function App() {
 
 
 
-      <div className='promo-container'>
+      <div className='promo-container' style={{ backgroundColor: "#ffff", zIndex: "100000" }}>
         <h3 className='promo-title'>Start using Pantheon Vista today</h3>
         <div className='promo-item'>
           <img src={checkmark} alt="tickmark" className='promo-icon' />
